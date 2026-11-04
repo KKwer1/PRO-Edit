@@ -1,6 +1,6 @@
 {
-  "version": "1.2.1",
+  "version": "1.3.0",
   "url": "https://raw.githubusercontent.com/KKwer1/PRO-Edit/main/PRO-Edit.exe",
-  "sha256": "6afd25d7be83e4504c3c15c2c585cde8fc2c0d0e74d50104f3542ce9fca58854",
-  "notes": "Горячие клавиши по умолчанию: Ctrl+/ — шаблоны, Ctrl+E — холдеры."
+  "sha256": "f1de7b0d82116a254fbf068ca1112e73ee00df18ceeb42a984cc0c0a0ee63ecb",
+  "notes": "Один тип транспорта. Аксессуары пишутся сами. Поиск понимает куп, про, обм и фразы вроде «продам бив м5лси», «дц лыткарино», «набор в чоп»."
 }
