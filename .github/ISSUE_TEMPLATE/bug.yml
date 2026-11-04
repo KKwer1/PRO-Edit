@@ -1,0 +1,65 @@
+name: Сообщить о проблеме
+description: Ошибка или некорректная работа PRO Edit.
+title: "[Ошибка]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Спасибо за отчёт. Перед отправкой проверьте похожие Issues и Discussions.
+
+        **Не публикуйте** пароли, SSH-ключи, токены и персональные данные.
+  - type: input
+    id: app-version
+    attributes:
+      label: Версия PRO Edit
+      description: Смотрите в «Настройки» или в имени архива (например, PRO-Edit-1.2.0.rar).
+      placeholder: 1.2.0
+    validations:
+      required: true
+  - type: dropdown
+    id: windows-version
+    attributes:
+      label: Версия Windows
+      options:
+        - Windows 11
+        - Windows 10
+        - Другая
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Что произошло?
+      description: Фактический результат и что вы ожидали.
+      placeholder: |
+        Ожидал: ...
+        Получил: ...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Как воспроизвести
+      description: Шаги от запуска программы до ошибки.
+      placeholder: |
+        1. Запустить PRO Edit
+        2. Нажать Ctrl+E
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Скриншот или текст ошибки
+      description: Приложите скриншот или точный текст. Секреты удалите.
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Подтверждение
+      options:
+        - label: Я проверил(а), что похожей проблемы ещё нет.
+          required: true
+        - label: Я указал(а) версию и шаги воспроизведения.
+          required: true

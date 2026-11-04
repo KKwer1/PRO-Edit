@@ -1,0 +1,36 @@
+name: Предложить улучшение
+description: Новая возможность или улучшение существующей функции.
+title: "[Идея]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Опишите задачу и пользу. **Не публикуйте** пароли, ключи, токены и персональные данные.
+  - type: textarea
+    id: task
+    attributes:
+      label: Какую задачу нужно решить?
+      description: Рабочая ситуация редактора, а не только «добавьте кнопку».
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Предлагаемое решение
+      description: Как, по-вашему, должна работать функция? Примеры приветствуются.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Варианты и ограничения
+      description: Какие обходные пути уже есть? Что важно не сломать?
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Подтверждение
+      options:
+        - label: Я проверил(а) Issues и Discussions — такого же запроса нет.
+          required: true

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Вопросы и помощь
+    url: https://github.com/KKwer1/PRO-Edit/discussions/categories/q-a
+    about: Вопросы по установке и работе PRO Edit — в Discussions.
+  - name: Скачать последнюю версию
+    url: https://github.com/KKwer1/PRO-Edit
+    about: Архив и exe лежат в корне репозитория.

@@ -1,0 +1,14 @@
+title: "[Анонс]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Официальные объявления о новых версиях и важных изменениях.
+        Писать в эту категорию могут только сопровождающие репозитория.
+  - type: textarea
+    id: announcement
+    attributes:
+      label: Текст объявления
+      description: Кратко: что изменилось, кому нужно обновиться вручную, ссылка на скачивание.
+    validations:
+      required: true

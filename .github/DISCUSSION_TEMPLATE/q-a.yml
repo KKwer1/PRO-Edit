@@ -1,0 +1,29 @@
+title: "[Вопрос]: "
+labels:
+  - question
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Вопросы по установке, настройке и работе PRO Edit.
+
+        Перед публикацией воспользуйтесь поиском. **Не указывайте** пароли, ключи и персональные данные.
+  - type: input
+    id: version
+    attributes:
+      label: Версия PRO Edit
+      placeholder: 1.2.0
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Вопрос
+      description: Что вы пытаетесь сделать и где возникло затруднение?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Контекст
+      description: Windows, режим игры, горячие клавиши, что уже пробовали.

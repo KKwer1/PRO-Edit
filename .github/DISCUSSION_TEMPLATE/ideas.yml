@@ -1,0 +1,24 @@
+title: "[Идея]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Предложения по развитию PRO Edit. Перед публикацией проверьте похожие обсуждения.
+
+        **Не публикуйте** пароли, ключи, токены и персональные данные.
+  - type: textarea
+    id: task-benefit
+    attributes:
+      label: Задача и польза
+      description: Какую задачу решает идея и кому она поможет?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal-examples
+    attributes:
+      label: Предложение и примеры
+      description: Желаемое поведение, сценарий использования, примеры.
+    validations:
+      required: true
