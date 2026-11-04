@@ -1,6 +1,6 @@
 {
-  "version": "1.2.0",
+  "version": "1.2.1",
   "url": "https://raw.githubusercontent.com/KKwer1/PRO-Edit/main/PRO-Edit.exe",
-  "sha256": "561ffeacedd197f696d1633d3faac25f1b972ddd12d65e6d483e6bf358cd3b41",
-  "notes": "Велосипеды и скейт отдельным типом. Умный поиск: велик, дц батка, продам кабан 10кк."
+  "sha256": "6afd25d7be83e4504c3c15c2c585cde8fc2c0d0e74d50104f3542ce9fca58854",
+  "notes": "Горячие клавиши по умолчанию: Ctrl+/ — шаблоны, Ctrl+E — холдеры."
 }
